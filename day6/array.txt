@@ -1,0 +1,55 @@
+JavaScript Array length:
+The length property returns the length (size) of an array:
+
+JavaScript Array toString():
+The JavaScript method toString() converts an array to a string of (comma separated) array values.
+
+
+JavaScript Array at():
+The at() method returns an indexed element from an array.
+The at() method returns the same as [].
+Many languages allows negative bracket indexing like [-1] to access elements from the end of an object / array / string.
+This is not possible in JavaScript, because [] is used for accessing both arrays and objects. obj[-1] refers to the value of key -1, not to the last property of the object.
+The at() method was introduced in ES2022 to solve this problem.
+
+
+JavaScript Array join():
+The join() method also joins all array elements into a string.
+It behaves just like toString(), but in addition you can specify the separator:
+
+
+Popping and Pushing
+When you work with arrays, it is easy to remove elements and add new elements.
+This is what popping and pushing is:
+Popping items out of an array, or pushing items into an array.
+
+
+JavaScript Array pop()
+The pop() method removes the last element from an array:
+The pop() method returns the value that was "popped out":
+
+JavaScript Array push()
+The push() method adds a new element to an array (at the end):
+The push() method returns the new array length
+
+
+Shifting Elements:
+Shifting is equivalent to popping, but working on the first element instead of the last.
+
+JavaScript Array shift()
+The shift() method removes the first array element and "shifts" all other elements to a lower index.
+
+The shift() method returns the value that was "shifted out":
+
+
+
+
+
+
+
+
+
+
+
+
+

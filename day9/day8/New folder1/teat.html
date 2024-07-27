@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+	<meta name="keywords" content="example, JavaScript Form Validation, Sample registration form" />
+	<meta name="description" content="This document is an example of JavaScript Form Validation using a sample registration form."/>
+	<link rel='stylesheet' href='js-form-validation.css' type='text/css' />
+	<script src="test.js"></script>
+</head>
+<body  onload="document.registration.userid.focus();">
+<h1>Registration Form</h1>
+<div class= "container">
+<form name='registration' id="zaheer"onSubmit="return formValidation();">
+	<ul style="list-style-type: none;">
+		<li><label for="username">User name:</label></li>
+		<li><input type="text" name="username" size="12" ></li>
+		<li><label for="age">age:</label></li>
+		<li><input type="number" name="age" size="12" ></li>
+		<li><label for="pincode">pincode:</label></li>
+		<li><input type="text" name="pincode" size="12" ></li>
+		<li><label for="pswd">pswd:</label></li>
+		<li><input type="password" name="pswd" size="12" ></li>
+		<li><label for="phno">phno:</label></li>
+		<li><input type="text" name="phno" size="12" ></li>
+		<li><input type="submit" name="submit" value="Submit" /></li>
+	</ul>
+</form>
+</div>
+</body>
+</html>

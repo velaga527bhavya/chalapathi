@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>demo3</title>
+</head>
+<body>
+	<button onclick="fun()">Click me</button>
+	<p id="state1">What about u r job?</p>
+</body>
+<script>
+	function fun()
+	{
+		var a;//declaration
+		if(Cofirm('Tell me u r ans'))
+		{
+			a="I am waiting for job";
+		}
+		else
+		{
+			a="I did not get any job";
+		}
+		document.getElementById('state1').innerHTML=a;
+	}
+</script>
+</html>
